@@ -1,0 +1,7 @@
+name: is fizz
+description: is fizz
+priority: 1
+condition: "number % 5 != 0"
+actions:
+  - "System.out.println(\"fizz\")"
+  - "result.setName(number)"
